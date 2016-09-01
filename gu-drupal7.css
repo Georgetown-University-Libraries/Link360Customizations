@@ -1,0 +1,164 @@
+@import url(//fonts.googleapis.com/css?family=Cabin);
+@import url(//fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic&subset=latin,latin-ext);
+
+#gu-summon {display: none; margin: 10px 20px; font-size: 12px; font-family: arial, sans-serif}
+#gu-summon button {font-size: 12px;}
+table.gu-tbl {margin: 20px 40px; width: 80%; }
+table.gu-tbl td.gu-art, table.gu-tbl td.gu-jour {width: 80px; text-align: center;}
+table.gu-tbl td.gu-cov, table.gu-tbl td.gu-link {width: 200px;}
+table.gu-tbl tr {background-color:#EDF0F4;}
+table.gu-tbl td, table.gu-tbl th {margin-top: 10px; padding: 4px;}
+table.gu-tbl button {padding: 5px 10px; font-weight: bold;}
+#gu-head {width: 100%;}
+a#gu-refine {right: 0px; position: relative; float: right;}
+#gu-summon table.SS_CitationTable, span.gu-ref table {border: none; margin: 0px 0px;padding: 5px;width: 650px;}
+#gu-help, #gu-more, #gu-more2, #gu-citation {margin: 5px 40px;}
+#gu-help p, #gu-more p {display:inline;}
+#gu-more2 {clear: both;}
+#gu-summon h4 {font-weight: bold; margin-top: 20px; margin-bottom: 8px;}
+p.head {font-weight: bold;}
+button.box {width: 108px; height: 60px; background-color: #012248; color: white; font-size: 10px; vertical-align: top}
+p.ask {margin: 5px; }
+span.gu-ref {margin: 0px 50px; border: none; padding: 2px; display: block;}
+#gu-responsible, #gu-terms-of-use, p.gu-more {margin: 10px 40px;}
+#gu-summon-body {margin-bottom: 15px;}
+h4 span.ui-icon {float: left;}
+#gu-more, #gu-help, p.gu-more {display: none;}
+h4.gu-more-i, h4.gu-help-i {cursor: pointer; color: #00E;}
+#gu-summon-body div.SSALCitationStyleInfoLink {display: none;}
+#gu-summon span.SS_NoResults {margin-left: 40px; font-weight: normal; display:block;}
+#header-text {font-size: 80%; margin-left: 8px; margin-right: 8px;}
+#gu-summon-body div.SS_HoldingText {margin-left: 40px; margin-top: 8px;}
+#gu-summon-body div.SS_HoldingText a {font-size: 12px; font-weight: normal;}
+
+html {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  min-width: 960px;
+  margin-top:0px; margin-left:auto; margin-right:auto; 
+  background-image: url('//www.library.georgetown.edu/sites/all/themes/gu_library_7/images/linen.png');
+  background-repeat: repeat;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin:0px;
+  padding:0px;
+}
+#gu-header { 
+    border: solid thin #012248;
+	background-image: url('//www.library.georgetown.edu/sites/all/themes/gu_library_7/images/dark_Tire_002147.png'); 
+    background-repeat: repeat;
+    min-height: 45px;
+    margin-top:0px; margin-left:auto; margin-right:auto; 
+} 
+#zone-menu {
+    text-align: right;
+    width: 960px;
+  margin-top:0px; margin-left:auto; margin-right:auto; 
+}
+
+div.mainbody {
+  width: 960px;
+  margin-top:0px; margin-left:auto; margin-right:auto; 
+  background-color: #fff;   
+  border: solid thin #fff;
+  padding-bottom: 20px;
+}
+
+#zone-branding {
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+#offCampus {
+	position: relative;
+	top:-80px;
+	right: 10px;
+	float: right;
+}
+
+#offCampus img {width: 36px;}
+#offCampus a {
+	text-decoration: none; 
+}
+#offCampus a span {
+	font-family: Arimo, sans-serif; 
+	color: #004990;
+	width: 77px;
+	display: inline-block;
+}
+
+#region-menu ul {
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+#region-menu li {
+    display: inline;
+    list-style-type: none;
+    font-family: Arimo, sans-serif; 
+    letter-spacing: 0.1rem;
+    padding-left: 2rem;
+    position: relative;
+    top: -3px;
+}
+
+#region-menu li.last {
+    position: relative;
+    top: 0;
+}
+
+#region-menu li a {
+    color: #fff;
+    text-decoration:none;   
+}
+div.mainbar {
+    background-color: #8d817b;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+#zone-footer-wrapper {
+    border: solid thin #012248;
+	background-color: #04254b;
+    background-image: url('//www.library.georgetown.edu/sites/all/themes/gu_library_7/images/dark_Tire_002147.png');
+    background-repeat: repeat;
+    min-height: 115px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#zone-footer {
+    width: 960px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#region-footer-first {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+#footer-text {
+    padding-left: 560px;
+    padding-top: 16px;
+    padding-right: 10px;
+    font-size: 11px;
+    font-family: Arimo, sans-serif;
+}
+
+#footer-text a {
+    color: #fff;
+    text-decoration: none;  
+}
+
+#zone-branding-wrapper img, #zone-menu img, #offCampus img, #zone-footer-wrapper img  {
+	border: none;
+}
+
